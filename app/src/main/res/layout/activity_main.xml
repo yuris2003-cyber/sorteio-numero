@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F2FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SORTEIO DE NÚMEROS"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#57446F"
+        android:layout_marginBottom="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número mínimo:"
+        android:textSize="17sp"
+        android:textColor="#57446F"/>
+
+    <EditText
+        android:id="@+id/edtMinimo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o mínimo"
+        android:inputType="numberSigned"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número máximo:"
+        android:textSize="17sp"
+        android:textColor="#57446F"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/edtMaximo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o máximo"
+        android:inputType="numberSigned"/>
+
+    <Button
+        android:id="@+id/btnSortear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SORTEAR NÚMERO"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número sorteado:"
+        android:textSize="19sp"
+        android:textColor="#57446F"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="?"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        android:textColor="#57446F"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+
+
